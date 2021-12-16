@@ -2,4 +2,141 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navigation{
+    background: #4C3F91;
+}
+
+.navigation_links{
+    display: flex;
+    margin-left: auto;
+    justify-content: right;
+}
+
+.navigation li{
+    list-style: none;
+    margin: 20px;
+    margin-right: 0;
+    color: #fff;
+    
+}
+
+.navigation li a{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.navigation li a:hover{
+    text-decoration: underline;
+}
+
+.header_div{
+    height: 85vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(76,63,145,0.4) 0%, rgba(0,0,0,0.41498597730107667) 100%),url("../img/landing_back.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header_text{
+    position: absolute;
+    top: 40%;
+    background: #4d3f9194;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.header_text h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+.header_text button{
+    width: 100px;
+    padding: 15px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    background: #9145B6;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.header_text button:hover{
+    transform: scale(1.02);
+}
+
+
+
+.header_text h1{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.section_heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.section_heading::after{
+    display: block;
+    content: "";
+    width: 150px;
+    height: 2px;
+    background: #000;
+    margin: 10px auto;
+}
+
+/*---------------------------------------FEATURE SECTION--------------------------------------------*/
+
+.card_div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card_div .text_container{
+    width: 45%;
+}
+
+.text_container > h2{
+    margin-bottom: 12px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text_container > p{
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.card_div .img_container{
+    width: 45%;
+}
+
+.img_container > img{
+    width: 100%;
+    height: 100%;
+}
+
+.feature_section > div:nth-child(odd){
+    background: #4d3f9194;
+    color: #fff;
 }
