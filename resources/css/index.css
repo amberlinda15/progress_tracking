@@ -1,3 +1,11 @@
+/*
+color palletes
+4C3F91
+9145B6
+B958A5
+FF5677
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -173,4 +181,13 @@ html,body{
     background: #9145B6;
     color: #fff;
     border: 1px solid #fff;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    
+
+}
+
+@media only screen and (max-width:767px){
+
 }
