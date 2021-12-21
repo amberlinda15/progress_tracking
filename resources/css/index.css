@@ -22,6 +22,7 @@ html,body{
     margin: 0 auto;
 }
 
+
 .navigation{
     background: #4C3F91;
 }
@@ -53,6 +54,35 @@ html,body{
 .navigation li a:hover{
     text-decoration: underline;
 }
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown .dropdown_cont{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: #000;
+    width: 100px;
+    padding: 10px 5px 5px 5px;
+    display: none;
+}
+
+.dropdown_cont a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.dropdown:hover .dropdown_cont{
+    display: block;
+}
+
+.dropdown_cont:hover{
+    display: block;
+}
+
 
 .header_div{
     height: 85vh;

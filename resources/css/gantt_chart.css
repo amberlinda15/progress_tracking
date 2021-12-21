@@ -1,0 +1,251 @@
+/*
+color palletes
+4C3F91
+9145B6
+B958A5
+FF5677
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    background: rgba(224, 224, 224, 0.616);
+}
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.navigation{
+    background: #4C3F91;
+}
+
+.links{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation_links{
+    display: flex;
+    margin-left: auto;
+    justify-content: right;
+}
+
+.navigation li{
+    list-style: none;
+    margin: 20px;
+    margin-right: 0;
+    color: #fff;
+    
+}
+
+.navigation li a{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.navigation li a:hover{
+    text-decoration: underline;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown .dropdown_cont{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: #000;
+    width: 100px;
+    padding: 10px 5px 5px 5px;
+    display: none;
+}
+
+.dropdown_cont a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.dropdown:hover .dropdown_cont{
+    display: block;
+}
+
+.dropdown_cont:hover{
+    display: block;
+}
+
+
+.header_div{
+    height: 85vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(76,63,145,0.4) 0%, rgba(0,0,0,0.41498597730107667) 100%),url("../img/gantt_chart.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header_text{
+    position: absolute;
+    top: 40%;
+    background: #4d3f9194;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.header_text h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+
+.header_text h1{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.section_heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.section_heading::after{
+    display: block;
+    content: "";
+    width: 150px;
+    height: 2px;
+    background: #000;
+    margin: 10px auto;
+}
+
+/*---------------------------------------FEATURE SECTION--------------------------------------------*/
+
+.card_div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card_div:nth-child(odd){
+    background: #4d3f9194;
+    color: #fff;
+}
+
+.card_div .text_container{
+    width: 45%;
+}
+
+.text_container > h2{
+    margin-bottom: 12px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text_container > p{
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.card_div .img_container{
+    width: 45%;
+}
+
+.img_container > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.feature_btn_1{
+    width: 100px;
+    padding: 15px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    background: #9145B6;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.feature_btn_2{
+    width: 100px;
+    padding: 15px;
+    border-radius: 100px;
+    border: 1px solid #9145B6;
+    background: #fff;
+    color: #9145B6;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+.feature_btn_1:hover{
+    transform: scale(1.02);
+    background: #fff;
+    color: #9145B6;
+    border: 1px solid #9145B6;
+}
+
+.feature_btn_2:hover{
+    transform: scale(1.02);
+    background: #9145B6;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown .dropdown_cont{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: #000;
+    width: 100px;
+    padding: 10px 5px 5px 5px;
+    display: none;
+}
+
+.dropdown_cont a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.dropdown:hover .dropdown_cont{
+    display: block;
+}
+
+.dropdown_cont:hover{
+    display: block;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    
+
+}
+
+@media only screen and (max-width:767px){
+
+}

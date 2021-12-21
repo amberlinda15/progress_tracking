@@ -11,9 +11,15 @@
         <div class="header_div">
             <div class="navigation">
                 <ul class="row navigation_links">
-                    <li><a class="links" href="#">Home</a></li>
-                    <li><a class="links">About</a></li>
-                    <li><a class="links">Contact</a></li>
+                    <li><a class="links" href="index.html">Home</a></li>
+                    <li><a class="links" href="./resources/pages/team_creation.html">Team creation</a></li>
+                    <li><a class="links" href="./resources/pages/assign_task.html">Assign tasks</a></li>
+                    <li class="dropdown">
+                        <a class="links" href="./resources/pages/assign_task.html" class="dropdown_link">Others</a>
+                        <div class="dropdown_cont">
+                            <a href="./resources/pages/gantt_chart.html">Gantt chart</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="row">
@@ -26,6 +32,15 @@
                 </div>
             </div>
         </div>
+
+        <section class="row" style="margin-top: 5%; margin-bottom: 5%;">
+            <div style="width: 60%; margin: 0 auto;">
+                <video width="100%" height="340" controls>
+                    <source src="resources/video/progress_creation.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
 
         <section class="row feature_section">
             <h1 class="section_heading">Features</h1>
@@ -54,11 +69,12 @@
 
             <div class="card_div">
                 <div class="text_container">
-                    <h2>Team creation</h2>
+                    <h2>Gantt chart</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electroni</p>
+                    <a href="./resources/pages/gantt_chart.html"><button class="feature_btn_1">Try it</button></a>
                 </div>
                 <div class="img_container">
-                    <img src="./resources//img/team_creation.png"/>
+                    <img src="./resources//img/gantt_chart.jpg"/>
                 </div>
             </div>
         </section>
